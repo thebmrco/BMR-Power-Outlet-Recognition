@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['typeb']
+
+roboflow:
+  workspace: new-workspace-rf06z
+  project: typeb
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-workspace-rf06z/typeb/dataset/2
